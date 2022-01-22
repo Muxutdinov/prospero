@@ -1,4 +1,38 @@
-.container {
+.section-body {
+  width: 100vw;
+  height: 900px;
+  background: #e5e5e5;
+  padding-top: 315px;
+}
+.section-container {
   max-width: 1140px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+}
+.top-left-card {
+  width: 555px;
+  height: 370px;
+  background: #fff;
+  border-radius: 10px;
+}
+.top-right-card {
+  width: 263px;
+  height: 370px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom-right-card-top {
+  display: flex;
+}
+.bottom-right-card-bottom {
+  display: flex;
 }
