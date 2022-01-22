@@ -5,6 +5,7 @@ import imgThree from '../../assets/images/image-3.png'
 import imgFour from '../../assets/images/image-4.png'
 import usr from '../../assets/images/card-usr.png'
 import play from '../../assets/icons/play.svg'
+// import playTwo from '../../assets/icons/play-2.svg'
 
 const Card = () => {
   return <div className='card-container'>
@@ -78,7 +79,46 @@ const Card = () => {
       </div>
 
 
-      <div className="card-right">Left Card</div>
+      <div className="card-right">
+        <div className="card-right-title">
+          Recommended for you
+        </div>
+
+        <div className="card-right-box bg-gray">
+          <div className="box-title">Food</div>
+          <div className="box-desc">
+            <span>For Chicken-Fried Steak, Too Much Is Just Enough</span>
+          </div>
+        </div>
+
+        <div className="card-right-box">
+          <div className="box-title blue">Cars</div>
+          <div className="box-desc">
+            <span>Storm Has Car Dealers Doing Swift Business</span>
+          </div>
+        </div>
+
+        <div className="card-right-box">
+          <div className="box-title purple">Movies</div>
+          <div className="box-desc">
+            <span>War Is Hell? In New Military Dramas, It’s One-Dimensional</span>
+          </div>
+        </div>
+
+        <div className="card-right-box">
+          <div className="box-title orange">NFL</div>
+          <div className="box-desc">
+            <span>11 surprising stat rankings for active NFL players</span>
+          </div>
+        </div>
+
+        <div className="card-right-box">
+          <div className="box-title green">Tech Reviews</div>
+          <div className="box-desc">
+            <span>The bookcases you can buy online and assemble yourself</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>;
 };
