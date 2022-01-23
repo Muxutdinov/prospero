@@ -3,7 +3,13 @@ import './index.css'
 import Card from './Card-1/Card';
 
 const Cards = () => {
-  return <div className='cardsContainer'><Card/></div>;
+  return <div className='cardsContainer'>
+    <div>
+
+    <Card/>
+  <div className='Border'></div>
+    </div>
+  </div>;
 };
 
 export default Cards;

@@ -3,7 +3,7 @@ display: flex;
 width: 848px;
 height: 245px;
 background: #FFFFFF;
-border: 1px solid gray;
+/* border: 1px solid gray; */
 border-radius: 10px;
 }
 .cardimg{
