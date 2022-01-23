@@ -1,10 +1,9 @@
-.cardbir{
+.cardikki{
 display: flex;
 width: 848px;
 height: 245px;
 background: #FFFFFF;
 /* border: 1px solid gray; */
-border-radius: 10px 10px 0 0 ;
 }
 .cardimg{
 width: 336px;
@@ -14,10 +13,12 @@ height: 195px;
 display: flex;
 align-items: center;
 }
-.bookmark{
+.bookmarkikki{
     margin-left: 360px;
+    color: red;
 }
-.flight{
+.flightikki{
+    margin-right: 20px;
 height: 15px;
 left: 45.52%;
 right: 23%;

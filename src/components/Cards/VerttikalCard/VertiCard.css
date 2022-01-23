@@ -1,0 +1,108 @@
+.CardLeft{
+    margin-left: 50px;
+    width: 263px;
+    height: 770px;
+    background: #FFFFFF;
+    border-radius: 10px;
+ }
+ .VcardTitle{
+     margin-left: 15px;
+     height: 100%;
+    width: 100%;
+    border-radius: nullpx;    
+    height: 20px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #262D33;    
+    /* background-color: red; */
+ }
+ .Vcardfooter{
+     /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-bottom: auto;
+    height: 50px;
+    width: 100%;
+    border-radius: nullpx;  
+    /* background-color: red;   */
+ }
+ .VcardBox{
+     /* margin-top: 18px; */
+     margin: 14px;
+     /* margin-bottom: 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .vfirst{
+    height: 60px;
+    width: 60px;
+    left: 25px;
+    top: 77px;
+    border-radius: 0px;    
+ }
+ .vtitle{
+     margin-left: 10px;
+    height: 40px;
+    width: 143px;
+    left: 95px;
+    top: 77px;
+    border-radius: nullpx;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #4B5157;    
+ }
+ .VtWrapper{
+     width: 100%;
+     height: 70px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .vtext{
+     margin-left: 10px;
+    height: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #939699;    
+ }
+ .VcardWrapper{
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-bottom: 8px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.borderheader{
+    margin-bottom: 5px;
+height: 1px;
+width: 263px;
+background: #D9DADB;
+}
+.vmiddleborder{
+height: 1px;
+width: 213px;
+background: #D9DADB;
+}

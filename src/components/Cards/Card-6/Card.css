@@ -1,10 +1,11 @@
-.cardbir{
+.cardlast{
 display: flex;
 width: 848px;
 height: 245px;
 background: #FFFFFF;
 /* border: 1px solid gray; */
-border-radius: 10px 10px 0 0 ;
+border-radius: 0px 0px 10px 10px ;
+margin-bottom: 50px;
 }
 .cardimg{
 width: 336px;
@@ -14,10 +15,11 @@ height: 195px;
 display: flex;
 align-items: center;
 }
-.bookmark{
-    margin-left: 360px;
+.bookmarklast{
+    margin-left:225px;
 }
-.flight{
+.flightlast{
+width: 200px;
 height: 15px;
 left: 45.52%;
 right: 23%;
