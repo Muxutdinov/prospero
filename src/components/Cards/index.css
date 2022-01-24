@@ -1,12 +1,12 @@
-.cardsContainer{
-    display: flex;
-    margin: 0 auto;
-    width: 1140px;
-    /* background: #FFFFFF; */
-    /* margin-bottom: 100px; */
+.cardsContainer {
+  display: flex;
+  margin: 0 auto;
+  width: 1140px;
+  /* background: #FFFFFF; */
+  /* margin-bottom: 100px; */
 }
-.Border{
-    background: #D9DADB;
-    margin: 0px 40px;
-    height: 2px;
+.Border {
+  background: #d9dadb;
+  margin: 0px 40px;
+  height: 2px;
 }
