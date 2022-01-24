@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import SectionTwo from '../components/SectionTwo';
 import Cards from '../components/Cards';
 import Readmore from '../components/Readmore/Readmore'
+import Readers from '../components/Readers/Readers';
 
 const Home = () => {
   return <div className='home'>
@@ -11,6 +12,7 @@ const Home = () => {
     <SectionTwo />
     <Readmore/>
     <Cards/>
+    <Readers/>
   </div>;
 };
 

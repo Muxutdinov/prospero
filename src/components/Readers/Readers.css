@@ -1,0 +1,232 @@
+.Readers{
+position: relative;
+display: flex;
+color: white;
+height: 690px;
+width: 1366px;
+/* width: 1140px; */
+background: #262D33;
+padding: 50px 100px;
+}
+.ReadersWrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ReadersLeft{
+border-radius: 10px 10px 10px 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+background-repeat: no-repeat;
+flex: 1;
+background-image: url('../../assets/images/reader-1.svg');
+}
+.ReadersImage{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.readersLeftSarah{
+margin-left: 20px;
+height: 20px;
+width: 150px;
+}
+
+.SarahText{
+margin-left: 35px;
+height: 15px;
+width: 120px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 15px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.4;
+}
+.ReadersTitle{
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+height: 150px;
+width: 350px;
+}
+.ReadersButton{
+cursor: pointer;
+}
+
+.hot{
+position: absolute;
+left: 120px;
+top: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #FF4F52;
+border-radius: 3px;
+height: 25px;
+width: 45px;
+}
+.hott{
+height: 15px;
+width: 21px;
+font-family: Lato;
+font-size: 15px;
+line-height: 15px;
+color: #FFFFFF;
+border-radius: 3px;
+}
+
+
+.ReadersRight{
+flex: 1;
+margin-left: 30px;
+}
+
+.ReadersRightTop{
+display: flex;
+background: #B4D1E0;
+height: 370px;
+width: 555px;
+border-radius: 10px;
+}
+
+.ReadersRightButtom{
+display: flex;
+margin-right: 30px;
+margin-top: 30px;
+justify-content: center;
+align-items: center;
+}
+
+
+.ButtonLeft{
+margin-right: 30px;
+background: #FFFFFF;
+height: 170px;
+width: 263px;
+border-radius: 10px;
+}
+.ButtonRight{
+background: #FFFFFF;
+height: 170px;
+width: 263px;
+border-radius: 10px;
+}
+
+.careers{
+height: 15px;
+width: 213px;
+font-family: Lato;
+font-size: 15px;
+line-height: 15px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+color: #3f7894;
+}
+
+.readersTopTitle{
+height: 90px;
+width: 243px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+color: #262D33;
+}
+
+.readersTopText{
+    height: 80px;
+width: 213px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+color: #4B5157;
+}
+
+.readersTopButton{
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+height: 40px;
+width: 138px;
+background: #4592FF;
+border-radius: 20px;
+}
+.redbtn{
+height: 20px;
+width: 68px;
+font-family: Lato;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.ReadersTopLeft{
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+flex: 1;
+}
+.ReadersTopRight{
+flex: 1;
+}
+.ButtonLeft{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+}
+.ButtonLeftTitle{
+margin-left: 20px;
+height: 25px;
+width: 213px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+color: #262D33;
+}
+
+.ButtonLeftText{
+margin-left: 20px;
+height: 60px;
+width: 213px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #4B5157;
+}
+
+.ButtonLeftdate{
+margin-left: 20px;
+height: 15px;
+width: 213px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #939699;
+}
