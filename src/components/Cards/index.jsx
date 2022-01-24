@@ -9,7 +9,8 @@ import Cardolti from './Card-6/Card';
 import VertiCard from './VerttikalCard/VertiCard';
 
 const Cards = () => {
-  return <div className='cardsContainer'>
+  return <div className='AllWrapperCard'>
+  <div className='cardsContainer'>
     <div>
       <Card />
       <div className='Border'></div>
@@ -27,6 +28,7 @@ const Cards = () => {
       <VertiCard />
     </div>
   </div>;
+  </div>
 };
 
 export default Cards;

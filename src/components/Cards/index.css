@@ -1,9 +1,17 @@
-.cardsContainer {
-  display: flex;
-  margin: 0 auto;
-  width: 1140px;
-  /* background: #FFFFFF; */
-  /* margin-bottom: 100px; */
+.AllWrapperCard{
+    width: 100vw;
+    background: #E5E5E5;
+    height: auto;
+    padding: 60px 0px;
+}
+
+.cardsContainer{
+    display: flex;
+    margin: 0 auto;
+    width: 1140px;
+    /* background: #FFFFFF; */
+    /* margin-bottom: 100px; */
+    /* background: #E5E5E5; */
 }
 .Border {
   background: #d9dadb;
