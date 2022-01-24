@@ -15,11 +15,13 @@
   justify-content: space-between;
 }
 .nav-container {
-  max-width: 1140px;
+  /* max-width: 1140px; */
+  padding: 20px 114px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #262d33;
 }
 .card-container {
   max-width: 1140px;
@@ -171,6 +173,7 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  list-style-type: none;
 }
 .nav-items {
   position: relative;

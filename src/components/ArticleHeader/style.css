@@ -1,0 +1,12 @@
+.article-bg {
+  width: 100vw;
+  height: 590px;
+  background-image: url("../../assets/images/header-bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.article-container {
+  width: 1140px;
+  margin: 0 auto;
+}
