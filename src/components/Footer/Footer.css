@@ -1,0 +1,236 @@
+.FooterWrapper{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.Footer{
+height: 795px;
+width: 1366px;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+.FooterTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FotterMiddleMeanItemTitletest1{
+    margin-top: 72px;
+    font-weight: 900;
+}
+.FotterMiddleMeanItemTitletest2{
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+.FotterMiddleMeanItemTitletest3{
+    font-weight: 900;
+    margin-top: 70px;
+}
+.FotterMiddleMeanItemTitletest4{
+    font-weight: 900;
+    margin-top: 70px;
+}
+
+.FooterTopTitle{
+height: 50px;
+width: 750px;
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 50px;;
+text-align: center;
+color: #262D33;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.FooterTopInputBtn{
+    display: flex;
+    margin-top: 10px;
+}
+.FooterTopInput{
+padding: 0px 30px;
+height: 40px;
+width: 313px;
+border-radius: 5px;
+background: #FFFFFF;
+border: 1px solid #D9DADB;
+box-sizing: border-box;
+}
+.FooterTopBtn{
+    margin-left: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+width: 119px;
+border-radius: 20px;
+background: #4592FF;
+cursor: pointer;
+}
+.FooterTopBtnText{
+font-family: Lato;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+height: 20px;
+width: 61px;
+}
+.FooterMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.FooterMiddleBorder{
+    display: flex;
+}
+.FooterMiddleBorderItem1{
+height: 5px;
+width: 195px;
+background: #FF4F52;
+}
+.FooterMiddleBorderItem2{
+    height: 5px;
+    width: 195px;
+    background: #AC8EE3;
+}
+.FooterMiddleBorderItem3{
+    height: 5px;
+    width: 195px;
+    background: #4592FF;
+}
+.FooterMiddleBorderItem4{
+    height: 5px;
+    width: 195px;
+    background: #FFA34D;
+}
+
+.FooterMiddleBorderItem5{
+    height: 5px;
+    width: 195px;
+    background: #3DC47E;
+}
+.FooterMiddleBorderItem6{
+    height: 5px;
+    width: 195px;
+    background: #6E99AE;
+}
+
+.FotterMiddleMeanItemTitle{
+height: 20px;
+font-family: Lato;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+font-weight: 900;
+align-items: center;
+color: #262D33;
+width: 165px;
+}
+.FotterMiddleMeanItemText{
+    margin-top: 20px;
+height: 20px;
+width: 165px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+color: #4B5157;
+}
+.FotterMiddleMean{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.FotterMiddleMeanItemTitle{
+   margin-top: 30px;
+}
+.FooterButtonFirstBtn{
+height: 1px;
+width: 1140px;
+background: #D9DADB;
+}
+.FooterButtonBtnMiddle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterButtonBtnMiddleLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    margin-right: 70px;
+}
+.FooterButtonBtnMiddleLeftIcon{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.FooterButtonBtnMiddleLeftItem{
+    height: 20px;
+    margin-right: 100px;
+    width: 100px;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;    
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #262D33;    
+}
+
+.FooterButtonBtnMiddleRight{
+    margin-right: 150px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex: 0.5; */
+}
+.FooterButton{
+    margin-left: 150px;
+}
+.FooterButtonBtnMiddleRightItem{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.FooterButtonSecond{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.FooterButtonSecondLeft{
+height: 40px;
+width: 750px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+color: #939699;
+}
+
+.FooterButtonSecondRight{
+height: 20px;
+width: 263px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #939699;
+margin-left: 264px ;
+}
