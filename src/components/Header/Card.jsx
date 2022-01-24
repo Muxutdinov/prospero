@@ -63,7 +63,7 @@ const Card = () => {
             <div className="btn">Read more </div>
             <div className="play-sec">
               <div className="circle">
-                <img src={play} alt="" className="play" />
+                <img src={play} alt="Play pic" className="play" />
               </div>
               <div className="track">
                 <div className="track-name">

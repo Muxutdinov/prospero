@@ -5,4 +5,5 @@ body {
   box-sizing: border-box;
   background: #fff;
   overflow-x: hidden;
+  z-index: -999;
 }

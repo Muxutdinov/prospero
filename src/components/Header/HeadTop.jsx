@@ -7,7 +7,7 @@ import signIn from '../../assets/icons/Man.svg'
 const HeadTop = () => {
   return (
     <div className='container'>
-      <div className='left'>
+      <div className='left-head'>
         <div className="sub-left">
           <div className="menu">
             <img src={burger} alt="burger" className="burger" />
@@ -21,7 +21,7 @@ const HeadTop = () => {
           </form>
         </div>
       </div>
-      <div className="right">
+      <div className="right-head">
         <div className="subcribe">
           <div className="img-content">
             <img src={subImg} alt="Subcribe img" className="subcribe-img" />
