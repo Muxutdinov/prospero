@@ -15,7 +15,7 @@ const Readers = () => {
         </div>
       </div>
       <div className="ReadersImage">
-        <img src={reader2}/> 
+        <img src={reader2} alt='img'/> 
         <div className="readersLeftSarah">
           By Sarah Jenkins
         </div>
@@ -27,10 +27,10 @@ const Readers = () => {
         Readers' Choice winners: Your wine country favorites
       </div>
       <div className="ReadersButton">
-        <img src={button} />
+        <img src={button} alt='img'/>
       </div>
       <div className="Piano">
-        <img src={piano} />
+        <img src={piano} alt='img'/>
       </div>
     </div>
     <div className="ReadersRight">
@@ -47,7 +47,7 @@ const Readers = () => {
           </div>
       </div>
       <div className="ReadersTopRight">
-        <img src={reader3} />
+        <img src={reader3}alt='img' />
       </div>
       </div>
       <div className="ReadersRightButtom">

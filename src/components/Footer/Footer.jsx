@@ -96,17 +96,17 @@ const Footer = () => {
               <div className="FooterButtonFirstBtn"></div>
               <div className='FooterButtonBtnMiddle'>
                 <div className="FooterButtonBtnMiddleLeft">
-                    <img src={Symbol} className="FooterButtonBtnMiddleLeftIcon"></img>
+                    <img src={Symbol} className="FooterButtonBtnMiddleLeftIcon" alt='img'/>
                     <div className="FooterButtonBtnMiddleLeftItem">Contact us</div>
                     <div className="FooterButtonBtnMiddleLeftItem">Contact us</div>
                     <div className="FooterButtonBtnMiddleLeftItem">Contact us</div>
                     <div className="FooterButtonBtnMiddleLeftItem">Contact us</div>
                 </div>
                 <div className="FooterButtonBtnMiddleRight">
-                    <img src={icon1} className="FooterButtonBtnMiddleRightItem"></img>
-                    <img src={icon3} className="FooterButtonBtnMiddleRightItem"></img>
-                    <img src={icon4} className="FooterButtonBtnMiddleRightItem"></img>
-                    <img src={icon2} className="FooterButtonBtnMiddleRightItem"></img>
+                    <img src={icon1} className="FooterButtonBtnMiddleRightItem" alt='img'/>
+                    <img src={icon3} className="FooterButtonBtnMiddleRightItem" alt='img'/>
+                    <img src={icon4} className="FooterButtonBtnMiddleRightItem" alt='img'/>
+                    <img src={icon2} className="FooterButtonBtnMiddleRightItem" alt='img'/>
                 </div>
               </div>
               <div className="FooterButtonFirstBtn"></div>

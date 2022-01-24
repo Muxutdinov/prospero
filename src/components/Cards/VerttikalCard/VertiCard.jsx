@@ -25,7 +25,7 @@ const VertiCard = () => {
     <div className='borderheader'></div>
     <div className='VcardWrapper'>
     <div className='VcardBox'>
-       <img src={v1} className='vfirst'></img>
+       <img src={v1} alt='img' className='vfirst'/>
        <div className='Vmain'>
          <div className='vtitle'>
             Office Meeting Leave the Office
@@ -35,12 +35,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n1}/>
+         <img  src={n1} alt='img'/>
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v2} className='vfirst'></img>
+       <img src={v2} className='vfirst' alt='img'/>
        <div className='Vmain'>
          <div className='vtitle'>
             Experimental Vocal Music in Brooklyn
@@ -50,12 +50,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n2}/>
+         <img  src={n2} alt='img'/>
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v3} className='vfirst'></img>
+       <img src={v3} className='vfirst' alt='img' />
        <div className='Vmain'>
          <div className='vtitle'>
             Google's Influence Over Think Tanks
@@ -65,12 +65,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n3}/>
+         <img  src={n3} alt='img' />
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v4} className='vfirst'></img>
+       <img src={v4} className='vfirst' alt='img' />
        <div className='Vmain'>
          <div className='vtitle'>
             Homes for Sale in NYC and Connecticut
@@ -80,12 +80,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n4}/>
+         <img  src={n4} alt='img'/>
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v5} className='vfirst'></img>
+       <img src={v5} className='vfirst' alt='img'/>
        <div className='Vmain'>
          <div className='vtitle'>
             Are You There,Dad?
@@ -96,12 +96,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n5}/>
+         <img  src={n5} alt='img'/>
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v6} className='vfirst'></img>
+       <img src={v6} className='vfirst' alt='img'/>
        <div className='Vmain'>
          <div className='vtitle'>
             The New Punk Look:
@@ -112,12 +112,12 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n6}/>
+         <img  src={n6} alt='img'/>
        </div>
     </div>
     <div className='vmiddleborder'></div>
     <div className='VcardBox'>
-       <img src={v7} className='vfirst'></img>
+       <img src={v7} className='vfirst' alt='img' />
        <div className='Vmain'>
          <div className='vtitle'>
             Sunday Best in Harlem and Brooklyn
@@ -127,7 +127,7 @@ const VertiCard = () => {
          </div>
        </div>
        <div>
-         <img  src={n7}/>
+         <img  src={n7} alt='img'/>
        </div>
     </div>
     </div>
