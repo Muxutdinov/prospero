@@ -12,20 +12,20 @@ const Cards = () => {
   return <div className='AllWrapperCard'>
   <div className='cardsContainer'>
     <div>
-    <Card/>
-  <div className='Border'></div>
-    <Cardikki/>
-  <div className='Border'></div>
-    <Carduch/>
-  <div className='Border'></div>
-  <Cardtort/>
-  <div className='Border'></div> 
-  <Cardbesh/>
-  <div className='Border'></div>
-  <Cardolti/>
+      <Card />
+      <div className='Border'></div>
+      <Cardikki />
+      <div className='Border'></div>
+      <Carduch />
+      <div className='Border'></div>
+      <Cardtort />
+      <div className='Border'></div>
+      <Cardbesh />
+      <div className='Border'></div>
+      <Cardolti />
     </div>
     <div>
-      <VertiCard/>
+      <VertiCard />
     </div>
   </div>;
   </div>
