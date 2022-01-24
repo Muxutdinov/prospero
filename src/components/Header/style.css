@@ -29,7 +29,7 @@
   position: relative;
 }
 
-.left {
+.left-head {
   display: flex;
   align-items: center;
 }
@@ -41,6 +41,7 @@
 .menu {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .burger {
   margin-right: 16px;
@@ -70,7 +71,7 @@ input::placeholder {
   color: #939699;
 }
 
-.right {
+.right-head {
   display: flex;
 }
 .subcribe {
@@ -109,6 +110,7 @@ input::placeholder {
 .signin {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .signin-img {
   margin-right: 15px;
@@ -136,6 +138,7 @@ input::placeholder {
 .head-center-center h1 {
   color: #262d33;
   font-size: 40px;
+  cursor: pointer;
 }
 
 .head-center-right {
@@ -169,6 +172,22 @@ input::placeholder {
   align-items: center;
   justify-content: space-between;
 }
+.nav-items {
+  position: relative;
+}
+.nav-items::before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  transition: all 0.3s linear;
+}
+.nav-items:hover::before {
+  width: 100%;
+}
 .nav-items .nav-item {
   font-size: 14px;
   line-height: 20px;
@@ -195,7 +214,7 @@ input::placeholder {
   margin-right: 25px;
   border-right: 2px solid #4b5157;
 }
-.title {
+.box .title {
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
@@ -213,7 +232,7 @@ input::placeholder {
   border-radius: 10px;
   display: flex;
   position: absolute;
-  top: 118%;
+  top: 28%;
 }
 .card-left {
   width: 877px;
@@ -344,6 +363,17 @@ input::placeholder {
 }
 .bg-gray {
   background-color: #f5f5f5;
+  position: relative;
+}
+.bg-gray:after {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: -8px;
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #f5f5f5;
+  transform: rotate(45deg);
 }
 .box-title {
   font-size: 12px;

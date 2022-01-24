@@ -4,14 +4,14 @@ import Arrow from '../../assets/icons/Arrow.svg'
 
 const Readmore = () => {
   return <div className='readmore'>
-       <div className='ReadmoreTitle'>
-           The big Bloom or "How Flowering Plants Changed the World"
-       </div>
-       <div className='readmorebutton'>
-           <div className='readmoreText'>
-           Read more
-               </div> <img src={Arrow} />
-       </div>
+    <div className='ReadmoreTitle'>
+      The big Bloom or "How Flowering Plants Changed the World"
+    </div>
+    <div className='readmorebutton'>
+      <div className='readmoreText'>
+        Read more
+      </div> <img src={Arrow} alt="pic" />
+    </div>
   </div>;
 };
 
