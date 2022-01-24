@@ -411,3 +411,10 @@ input::placeholder {
   width: 4.5px;
   height: 5.4px;
 } */
+
+/* 
+  ====== Mobile versions =======
+*/
+
+@media (max-width: 576px) {
+}
